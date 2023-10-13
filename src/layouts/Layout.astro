@@ -12,6 +12,16 @@ const { title } = Astro.props;
 		<meta charset="UTF-8" />
 		<title>{title}</title>
 		<meta name="description" content="Portafolio Web de José Carlos Balbín, Desarrollador Frontend" />
+		
+		<!-- open graph -->
+		<meta property="og:title" content="Portafolio Web de José Carlos Balbín, Desarrollador Frontend" >
+		<meta property="og:description" content="Portafolio con proyectos que utilizan tecnologias web para crear productos y experiencias digitales accesibles tomando en cuenta la experiencia de usuario" >
+		<meta property="og:image" content="/portafoliov1img.png" >
+		<meta property="og:image:alt" content="Una captura de la interfaz del portafolio web" >
+
+		<!-- SEO -->
+		<link rel="canonical" href="https://jcbalbdev.vercel.app/">
+
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
